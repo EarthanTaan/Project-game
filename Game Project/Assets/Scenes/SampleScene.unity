@@ -1139,8 +1139,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   jumpForce: 11
-  maxJumps: 1
-  distance: 0.55
+  maxJumps: 2
+  distance: 0.52
+  boxHt: 0.01
 --- !u!61 &914647382
 BoxCollider2D:
   m_ObjectHideFlags: 0
