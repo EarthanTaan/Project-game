@@ -7,24 +7,23 @@ namespace Mechanics
 {
     public class HealthMechanic : MonoBehaviour
     {
-        // Static Variables Declaration Zone
+        // Variables Declaration Zone
         public int maxHealth;
         public int currentHealth;
         bool gotHit = false;
         public LayerMask ouchies;  // In the editor this is set to include the layers "Enemy" and "Hazard"
+      
         
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
             currentHealth = maxHealth;
         }
-
-        // Update is called once per frame
+        
         void FixedUpdate()
         {
             void onCollisionEnter2D(Collision2D collision)
             {
-                if (collision.collider.CompareTag("Hurts"))
+                if (collision.collider.gameObject.layer == ouchies)     // Here's where I'm leaving off for the night, because I can't keep my eyes open or maintain a train of thought.
                 {
                     gotHit = true;
                 }
