@@ -1003,6 +1003,7 @@ GameObject:
   - component: {fileID: 914647378}
   - component: {fileID: 914647377}
   - component: {fileID: 914647376}
+  - component: {fileID: 914647384}
   - component: {fileID: 914647379}
   - component: {fileID: 914647381}
   - component: {fileID: 914647382}
@@ -1206,6 +1207,23 @@ PositionConstraint:
   m_Active: 0
   m_IsLocked: 0
   m_Sources: []
+--- !u!114 &914647384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914647375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 374a208fe3c865d4aaab0c9e3bfb6e87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
+  ouchies:
+    serializedVersion: 2
+    m_Bits: 192
 --- !u!1 &952809217
 GameObject:
   m_ObjectHideFlags: 0

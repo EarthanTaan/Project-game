@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
-  - Platform
+  - Hurts
   layers:
   - Default
   - TransparentFX
@@ -13,8 +13,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - Hazard
+  - Enemy
   - 
   - 
   - 
