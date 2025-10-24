@@ -65,7 +65,7 @@ namespace Mechanics
             if (groundSensor)  // the 'groundSensor' (a RaycastHit2D) will return "true" if it contains any information at all, and "null" if it doesn't.
             {
                 jumpCounter = 0;  // Restore the player's ability to jump, because their feet have touched the ground.
-                print("There's the ground! (jumpCounter = "+jumpCounter+")");
+                // print("There's the ground! (jumpCounter = "+jumpCounter+")");
             }
             
             if (jumpRequested)  // Received from a jump input during Update()
